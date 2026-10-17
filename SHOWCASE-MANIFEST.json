@@ -1,0 +1,247 @@
+{
+  "title": "Beta Day Shop public showcase package",
+  "prepared": "2026-10-17",
+  "sourceRepository": "https://github.com/Uexcel2022/beta-day-shop",
+  "sourceVisibility": "private",
+  "sourceCommit": "5376bed5e8130698a943c1dfad0d18910f81e516",
+  "frontendCapture": "Actual React application with synthetic presentation data; read-only API interception, no real customers or submitted purchases",
+  "swaggerCapture": "Live generated OpenAPI served through the local gateway; no saved authorization or submitted API writes",
+  "codePictures": "Selected actual source excerpts with original file names and line numbers; full code remains private",
+  "publication": "Public documentation showcase; complete application source remains private and the application demo runs locally.",
+  "files": [
+    {
+      "file": ".gitattributes",
+      "bytes": 32,
+      "sha256": "23302dd90b8bb74b44d365fafef8df20f809b61cb347023951ecf60a88a29651"
+    },
+    {
+      "file": ".gitignore",
+      "bytes": 186,
+      "sha256": "b1aabf05a24ece276b2836e102dc2504ceaecb30099c7dbe18ddbb38664a8015"
+    },
+    {
+      "file": "assets/architecture/system-overview.png",
+      "bytes": 87876,
+      "sha256": "1c01d3d211ead0ff1b26c2f61129a0973aa122af3ce4cf78348727f83c375119",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "file": "assets/architecture/system-overview.svg",
+      "bytes": 5106,
+      "sha256": "93dbe643d9c761c6f10ca6c8f5a747a826482259e2fa431dac945c1a43791684"
+    },
+    {
+      "file": "assets/code/01-idempotency.png",
+      "bytes": 94751,
+      "sha256": "ba9a2153a5228195434bbe7aadd8e38e55743651d529854e4be93c66c4ead170",
+      "width": 1600,
+      "height": 1035
+    },
+    {
+      "file": "assets/code/02-delivery-payment.png",
+      "bytes": 115190,
+      "sha256": "b565741cf394c1b63a695751b3e35960503a43a80e4394e1881bf6689d074943",
+      "width": 1600,
+      "height": 975
+    },
+    {
+      "file": "assets/code/03-kafka-outbox.png",
+      "bytes": 124351,
+      "sha256": "f244d55f1092507766a46091ef63dcb9ea0fc430382a7fffe9a7a036c85e639e",
+      "width": 1600,
+      "height": 1185
+    },
+    {
+      "file": "assets/code/04-checkout-recovery.png",
+      "bytes": 93465,
+      "sha256": "71c76112c27913ede070d359bb6448e944d32b7afde85e5df93459faa8814ee5",
+      "width": 1600,
+      "height": 945
+    },
+    {
+      "file": "assets/frontend/01-storefront.png",
+      "bytes": 420511,
+      "sha256": "f4e513a60bfbaa331fe442108a218ea31bf97bed2821105f8d2264e08b8d4126",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "file": "assets/frontend/02-catalogue.png",
+      "bytes": 761470,
+      "sha256": "310681259d284f340dc0183dcd930763a44a8156330831d6d6297d3fa4b81ddf",
+      "width": 1440,
+      "height": 1988
+    },
+    {
+      "file": "assets/frontend/03-product.png",
+      "bytes": 371929,
+      "sha256": "55d9af92dd16640678a43aa6ec912bd635d5690be3f2770d2f92e5c89cc73412",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "file": "assets/frontend/04-shopping-bag.png",
+      "bytes": 121732,
+      "sha256": "df7d40f90605dce1d54f92b0c48b9ab4616916568071852baee5bece4f3892c6",
+      "width": 1440,
+      "height": 1076
+    },
+    {
+      "file": "assets/frontend/05-checkout.png",
+      "bytes": 95150,
+      "sha256": "71a020108010906ead09f5dd05f184ed34baf66baea1adaf6993bb9d6f0a970f",
+      "width": 1440,
+      "height": 1642
+    },
+    {
+      "file": "assets/frontend/06-customer-profile.png",
+      "bytes": 87389,
+      "sha256": "dab9f0cd3bce512d51daa3f2266afa1194fae656d627e2bf5f3f6207a69aacfc",
+      "width": 1440,
+      "height": 1807
+    },
+    {
+      "file": "assets/frontend/07-address-book.png",
+      "bytes": 44063,
+      "sha256": "156cf33d18c8990f54080922321d8102a5e69fddf45ad7206d85f29bbc5a12c4",
+      "width": 1440,
+      "height": 1000
+    },
+    {
+      "file": "assets/frontend/08-order-payment.png",
+      "bytes": 164750,
+      "sha256": "10e6b503d4e4bcaf78d9de08f606d7272bd45dc0a9432452403c3bcd08e3a337",
+      "width": 1440,
+      "height": 2293
+    },
+    {
+      "file": "assets/frontend/09-delivery-and-return.png",
+      "bytes": 205966,
+      "sha256": "41dfabd0ebf22c8ea16756903cc202d993060406b9cbc62a19ae0581fc7c5b69",
+      "width": 1440,
+      "height": 3327
+    },
+    {
+      "file": "assets/frontend/10-admin-staff-registration.png",
+      "bytes": 77804,
+      "sha256": "411d04182b7ea283c2dd119cb86fdc12d429e2827ae7eaf72d7b4547df02c59d",
+      "width": 1440,
+      "height": 1183
+    },
+    {
+      "file": "assets/frontend/11-admin-products.png",
+      "bytes": 92960,
+      "sha256": "cb783ffdcfcd20a8128025b68e3c058da60607b0382a2b923af1cd4db57f9cc9",
+      "width": 1440,
+      "height": 1407
+    },
+    {
+      "file": "assets/frontend/12-staff-operations.png",
+      "bytes": 85874,
+      "sha256": "ae322080bd9d22b1d17cf25ae07c251015d3731495a3ef01e5cea8b4f742c01c",
+      "width": 1440,
+      "height": 1757
+    },
+    {
+      "file": "assets/frontend/13-mobile-storefront.png",
+      "bytes": 168096,
+      "sha256": "645cf1f683eed89d8da1d7b7d7fb2edf58184aaa20e1202aa71681bf37c5186c",
+      "width": 390,
+      "height": 1000
+    },
+    {
+      "file": "assets/frontend/14-mobile-checkout.png",
+      "bytes": 87446,
+      "sha256": "650b7ad4849b4b0dc1d3db191fbbff90840aaae3d01f4c253aec7a9b3d0dc675",
+      "width": 390,
+      "height": 2592
+    },
+    {
+      "file": "assets/swagger/identity-api.png",
+      "bytes": 178838,
+      "sha256": "78a0570f12945f3899160a05ea73919a027b743ba0d04667b4474de64c8a11d7",
+      "width": 1440,
+      "height": 2600
+    },
+    {
+      "file": "assets/swagger/order-api.png",
+      "bytes": 169635,
+      "sha256": "176a44286fb28d21374d868f3d4b7b100984e348147092787a8b6989382a7c7e",
+      "width": 1440,
+      "height": 2600
+    },
+    {
+      "file": "assets/swagger/payment-api.png",
+      "bytes": 137995,
+      "sha256": "fff6e16c452154d0e250b1937e1029d422895b270841e36918d605d914fa49b7",
+      "width": 1440,
+      "height": 2098
+    },
+    {
+      "file": "assets/swagger/product-api.png",
+      "bytes": 171964,
+      "sha256": "f9f609017fd5a89a295de0c084436fa1545642772eb849aa51a874f81cd1b173",
+      "width": 1440,
+      "height": 2600
+    },
+    {
+      "file": "assets/swagger/shipment-api.png",
+      "bytes": 115760,
+      "sha256": "9b04fb527bb2f10c23451d7df5f269994626011549a8b0b55a16486b874886fe",
+      "width": 1440,
+      "height": 1813
+    },
+    {
+      "file": "CREDITS.md",
+      "bytes": 2450,
+      "sha256": "fb934d11814896920282aef97bd1a2395b436fb75e9c645fac9bc6001ff6f445"
+    },
+    {
+      "file": "docs/API-OVERVIEW.md",
+      "bytes": 1936,
+      "sha256": "deed119992485011294f4edf5653d93f45e355dda0fd74ee99b6a87e6ae3327c"
+    },
+    {
+      "file": "docs/ARCHITECTURE.md",
+      "bytes": 3845,
+      "sha256": "d7df831be7e6d65d36a39ae2b91c9d28250e1e83efd0e0373a55c473c2180075"
+    },
+    {
+      "file": "docs/CODE-HIGHLIGHTS.md",
+      "bytes": 3339,
+      "sha256": "3588218954ac013657e5683dec93fbd327be609ad5a6c6e6d11fcfde977e5399"
+    },
+    {
+      "file": "docs/CV-ENTRY.md",
+      "bytes": 1360,
+      "sha256": "40bb9e5536ee731dd9ec14ef3a514e23c88772be9ba4d28205ca9bf6a991724e"
+    },
+    {
+      "file": "docs/LOCAL-DEMO.md",
+      "bytes": 3130,
+      "sha256": "0d2160eb1dace69a431ac3be033c74ecf55a096170cac697819554019cfc3b34"
+    },
+    {
+      "file": "docs/PUBLISHING.md",
+      "bytes": 1734,
+      "sha256": "ab0991589df97f4f08622ff062de46e24d094450bbdcb0e572b81bf8fe71237d"
+    },
+    {
+      "file": "docs/SCREENSHOT-GALLERY.md",
+      "bytes": 2361,
+      "sha256": "293e40e146d105f44364cf6555e36c0ac23b39e0ffed4bbaa63062b8c7a94517"
+    },
+    {
+      "file": "docs/TESTING.md",
+      "bytes": 2915,
+      "sha256": "5a37effde6a34d1c7067bfab8c478046b289af01bc8832cc6018e9c6f3ec3d85"
+    },
+    {
+      "file": "README.md",
+      "bytes": 8206,
+      "sha256": "7648c5bd5ce7702d59c8019bb7d2a94ad0636c0eb4d0efcd80f613c6852f60b4"
+    }
+  ],
+  "showcaseRepository": "https://github.com/Uexcel2022/beta-day-shop-showcase"
+}

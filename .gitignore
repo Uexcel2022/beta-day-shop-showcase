@@ -1,0 +1,15 @@
+# This repository contains documentation and approved images only.
+.env
+.env.*
+.local/
+secrets/
+credentials*.json
+node_modules/
+target/
+*.log
+*.pem
+*.key
+*.p12
+*.pfx
+Thumbs.db
+.DS_Store
